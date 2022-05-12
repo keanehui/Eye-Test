@@ -1,0 +1,205 @@
+/* 
+  Localizable.strings
+  OnlineEyeTest
+
+  Created by Keane Hui on 11/4/2022.
+  
+*/
+
+// Copy to en-GB, en-US
+
+// MARK: Distance Capsule
+"distanceCapsuleText" = "Distance";
+
+// MARK: Home
+"homePageText" = "Home Page";
+
+"homeStartButton" = "Start Test";
+
+"homeSettingButton" = "Settings";
+
+"homePlayButton" = "Play";
+
+"homeVI" = "Press Start to proceed. ";
+
+// MARK: Pre-Introduction
+"preIntroTextTop" = "iPhone needs to know the distance between the screen and your face before the eye tests by doing a simple calibration. ";
+
+"turnOnVIInSetting" = "Turn on Voice Instruction in Setting > ";
+
+"preIntroTextBottom" = "Continue to the calibration? ";
+
+"preIntroButtonTop" = "Yes";
+
+"preIntroButtonBottom" = "No";
+
+"preIntroVI" = "iPhone needs to know the distance between the screen and your face before the eye tests by doing a simple calibration. Do you want to continue to the calibration? ";
+
+// MARK: Calibration - Main
+"calibrationMissingVI" = "Please show your face in front of the camera. ";
+
+"calibrationTooCloseVI" = "Your iPhone is too close! Move it away. ";
+
+"calibrationValidVI" = "Good! Please maintain this distance during the tests. ";
+
+"calibrationTooFarVI" = "Your iPhone is too far away! Move it closer. ";
+
+"calibrationButtonCancel" = "Cancel";
+
+"volumeTooLowText" = "You are muted";
+
+// MARK: Calibration - Instruction Short
+"instructionShortMissing" = "Show your face";
+
+"instructionShortTooClose1" = "Too close";
+"instructionShortTooClose2" = "Just a bit further! ";
+
+"instructionShortTooFar1" = "Too far";
+"instructionShortTooFar2" = "Just a bit closer! ";
+
+// MARK: Calibration - Instruction Full
+"instructionFullMissing1" = "Please show your face in the ";
+"instructionFullMissing2" = "square";
+"instructionFullMissing3" = ". ";
+
+"instructionFullTooClose" = "Your phone is too close from your face. \nPlease move your iPhone away. ";
+
+"instructionFullValid" = "Good! \nMaintain this distance during the tests. ";
+
+"instructionFullTooFar" = "Your phone is too far away from your face. \nPlease move your iPhone closer. ";
+
+// MARK: Post-Introduction
+"postIntroTextTop" = "Well done! iPhone now knows the distance between the screen and your face. Please maintain the distance during the whole test. \n\nThe camera will be tracking the distance and you will be notified if you are too close or too far away from the screen. ";
+
+"postIntroTextBottom" = "Continue to eye tests? ";
+
+"postIntroButtonTop" = "Yes";
+
+"postIntroButtonBottom" = "No";
+
+"postIntroVI" = "iPhone now knows the distance between the screen and your face. Please maintain the distance during the whole test. \n\nThe camera will be tracking the distance and you will be notified if you are too close or too far away from the screen. Do you want to continue to the eye tests? ";
+
+// MARK: Alert
+"alertTitle" = "Calibration Required";
+
+"alertButton1" = "End test";
+
+"alertButton2" = "Calibrate";
+
+"alertText" = "You are not within the appropriate distance from your iPhone's screen. Complete another calibration to continue. ";
+
+// MARK: Eye Test
+"eyeTestQuestion" = "What number do you see in the image above? ";
+
+"eyeTestPlaceHolder" = "Enter a number here";
+
+// MARK: Main App
+// login page
+"TopicText" = "Eye Test";
+"UsernameText" = "Username";
+"PasswordText" = "Password";
+"LoginButtonText" = "Login";
+"SignUpButtonText" = "Sign Up";
+"SettingsButtonText" = "Settings";
+"AlertLoginFailedTitle" = "Log In Failed";
+"AlertRequiredMessage" = "Username and password are required. ";
+"AlertPasswordIncorrectMessage" = "Your username or password was incorrect. ";
+"AlertNetworkFailureMessage" = "Failed to connect to the server. Please try again. ";
+"AlertUnknownErrorMessage" = "Encountered an unknown error. Please try again. ";
+"OKButton" = "OK";
+
+// signUp page
+"CreateAccountText" = "Create an account";
+"UsernamePlaceholder" = "Username*";
+"PasswordPlaceholder" = "Password*";
+"ConfirmPlaceholder" = "Confirm Password*";
+"SignupButtonText" = "Sign up";
+"CancelButtonText" = "Cancel";
+"AlertSignupFailTitle" = "Sign Up Failed";
+"AlertSignupSuccessTitle" = "Sign Up Succeed";
+"AlertSignupPasswordRequiredMessage" = "Username, password and confirmation are required. ";
+"AlertSignupPasswordDoNotMatchMessage" = "The password you entered doesn't match the confirmation. ";
+"AlertSignupSuccessMessage" = "Your account has been signed up successfully. You can now log in and start the tests. ";
+"AlertSignupUsernameIsUsedMessage" = "Seems the username has already been used. ";
+
+// setting page
+"LanguageText" = "Language";
+"LocalisationText" = "Localisation";
+"HapticFeedbackText" = "Haptic Feedback";
+"SoundEffectText" = "Sound Effect";
+"FeedbackText" = "Feedback";
+"VoiceInstructionText" = "Voice Instruction";
+"SpeedText" = "Speed";
+"PitchText" = "Pitch";
+"EditSettingsText" = "Edit Settings";
+"SettingsFooter" = "You can switch on Voice Instruction in Settings to complete the tests with a touchless manner. ";
+"SettingsTitleText" = "Settings";
+"DoneText" = "Done";
+"ConfirmText" = "Confirm";
+
+// menu Page
+"LogoutButtonText" = "Logout";
+"StartButtonText" = "Start Test";
+"ViewResultButtonText" = "View Results";
+"AlertAreYouSureTitle" = "Are You Sure? ";
+"AlertViewResultsFailedTitle" = "View Results Failed";
+"AlertFetchResultsErrorMessage" = "Failed to fetch results. Please try again. ";
+
+// view result
+"ViewResultTitle" = "Historical Result";
+"NoResultToViewText" = "No eye test result to view. ";
+"YouCompleted1EyeTestText" = "You completed 1 set of eye test. ";
+"YouCompletedXEyeTestText %d" = "You completed %d sets of eye test. Drag the graphs to view details. ";
+
+// eyetest 1
+"WhatNumberDoYouSeeText" = "What number do you see ? ";
+"InvalidInputText" = "Invalid Input";
+"PleaseEnterAPositiveNumberText" = "Please enter a positive number. ";
+"EnterANumberHereText" = "Enter a number here";
+"EyeHintUseText" = "Use ";
+"EyeHintLeftText" = "Left Eye";
+"EyeHintRightText" = "Right Eye";
+"EyeHintOnlyText" = " Only";
+"VI_Confirm" = "confirm";
+"VI_Left_WhatNumberDoYouSeeText" = "Use left eye only. What number do you see ? ";
+"VI_Right_WhatNumberDoYouSeeText" = "Use right eye only. What number do you see ? ";
+"VIKeywordHint_Test1" = "Say these keywords to modify or submit your input: 'cancel', 'delete', 'confirm'. ";
+
+// eyetest 2
+"LookAtBlackDotFor5SecondsText" = "Look at the black dot for 5 seconds. ";
+"VI_Left_LookAtBlackDotFor5SecondsText" = "Use left eye only. Look at the black dot for 5 seconds. Say Start when you're ready. ";
+"IsTheImageDimmerText" = "Now use your right eye only. Is the image dimmer? ";
+"StartButtonText" = "Start";
+"YesText" = "Yes";
+"NoText" = "No";
+
+// eyetest 3
+"Which4LettersDoYouSeeText" = "Which 4 letters do you see? ";
+"PleaseEnter4LettersText" = "Please enter 4 letters. ";
+"Enter4LettersHereText" = "Enter 4 letters here";
+"VI_Delete" = "delete";
+"VIInputHint_Test3" = "Say 'Apple' to input 'A', etc. ";
+"VIKeywordHint_Test3" = "Say these keywords to modify or submit your input: 'cancel', 'delete', 'confirm'. ";
+"VI_Left_Which4LettersDoYouSeeText" = "Use left eye only. Which 4 letters do you see? ";
+"VI_Right_Which4LettersDoYouSeeText" = "Use right eye only. Which 4 letters do you see? ";
+
+// eyetest 4
+"DoAllStripesHaveTheSameShadeOfBlackText" = "Do all stripes have the same shade of black? ";
+"VI_Left_DoAllStripesHaveTheSameShadeOfBlackText" = "Use left eye only. Do all stripes have the same shade of black? ";
+"VI_Right_DoAllStripesHaveTheSameShadeOfBlackText" = "Use right eye only. Do all stripes have the same shade of black? ";
+
+// eyetest 5
+"AreAllTheSquaresEquallySpaced" = "Are all the squares equally sized? ";
+"VI_Left_AreAllTheSquaresEquallySpaced" = "Use left eye only. Are all the squares equally sized? ";
+"VI_Right_AreAllTheSquaresEquallySpaced" = "Use right eye only. Are all the squares equally sized? ";
+
+// result list
+"NoResultText" = "No Result";
+"ResultOverviewText" = "Result Overview";
+"AlertUploadFailedTitle" = "Upload Failed";
+"AlertUploadFailedUnknownErrorMessage" = "Encountered an unknown error. You will lose the results if you leave now. ";
+"AlertUploadFailedNetworkErrorMessage" = "Failed to connect to the server. You will lose the results if you leave now. ";
+"LeaveText" = "Leave";
+
+"VI_Yes" = "yes";
+"VI_No" = "no";

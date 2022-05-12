@@ -1,0 +1,194 @@
+/*
+  Localizable.strings
+  OnlineEyeTest
+
+  Created by Keane Hui on 11/4/2022.
+  
+*/
+
+// MARK: Distance Capsule
+"distanceCapsuleText" = "距离";
+
+// MARK: Home
+"homePageText" = "首页";
+
+"homeStartButton" = "开始";
+
+"homeSettingButton" = "设定";
+
+"homePlayButton" = "播放";
+
+"homeVI" = "请按下播放以开始。";
+
+// MARK: Pre-Introduction
+"preIntroTextTop" = "在开始眼部测试之前，您的iPhone需要透过一个简单的校正步骤来知道萤幕和您面部之间的距离。";
+
+"turnOnVIInSetting" = "在设定中打开语音指示 > ";
+
+"preIntroTextBottom" = "是否要进行校正？";
+
+"preIntroButtonTop" = "是";
+
+"preIntroButtonBottom" = "否";
+
+"preIntroVI" = "在开始眼部测试之前，您的iPhone需要透过一个简单的校正步骤来知道萤幕和您面部之间的距离。是否要进行校正？";
+
+// MARK: Calibration - Main
+"calibrationMissingVI" = "请将面部置于前置镜头面前。";
+
+"calibrationTooCloseVI" = "距离太近了！请把iPhone拿远一些。";
+
+"calibrationValidVI" = "很好！请在测试中保持这个距离。";
+
+"calibrationTooFarVI" = "距离太远了！请把iPhone拿近一些。";
+
+"calibrationButtonCancel" = "取消";
+
+"volumeTooLowText" = "请调高音量";
+
+// MARK: Calibration - Instruction Short
+"instructionShortMissing" = "请将面部置于\n前置镜头面前";
+
+"instructionShortTooClose1" = "太近了";
+"instructionShortTooClose2" = "快到了，再远一些！";
+
+"instructionShortTooFar1" = "太远了";
+"instructionShortTooFar2" = "快到了，再近一些！";
+
+// MARK: Calibration - Instruction Full
+"instructionFullMissing1" = "请将面部置于";
+"instructionFullMissing2" = "正方形";
+"instructionFullMissing3" = "里面。";
+
+"instructionFullTooClose" = "请把iPhone拿远一些。";
+
+"instructionFullValid" = "很好！请在测试中保持这个距离。";
+
+"instructionFullTooFar" = "请把iPhone拿近一些。";
+
+// MARK: Post-Introduction
+"postIntroTextTop" = "做得好！您的iPhone已经知道萤幕和您面部之间的距离了。\n请在整个测试过程中保持这个距离。\n前置镜头将会在整个测试过程中持续监察距离，并在距离太近或太远时提醒您。";
+
+"postIntroTextBottom" = "是否要进行测试？";
+
+"postIntroButtonTop" = "是";
+
+"postIntroButtonBottom" = "否";
+
+"postIntroVI" = "做得好！您的iPhone已经知道萤幕和您面部之间的距离了。请在整个测试过程中保持这个距离。前置镜头将会在整个测试过程中持续监察距离，并在距离太近或太远时提醒您。是否要进行测试？";
+
+// MARK: Eye Test
+"eyeTestQuestion" = "上方图片中的数字是什么？";
+"eyeTestPlaceHolder" = "请在这里输入您看到的数字";
+
+// MARK: Main App
+//login page
+"TopicText" = "视力测试";
+"UsernameText" = "帐户名称";
+"PasswordText" = "密码";
+"LoginButtonText" = "登入";
+"SignUpButtonText" = "注册";
+"SettingsButtonText" = "设定";
+"AlertLoginFailedTitle" = "登入失败";
+"AlertRequiredMessage" = "请输入帐户和密码。";
+"AlertPasswordIncorrectMessage" = "帐户或密码不正确。";
+"AlertNetworkFailureMessage" = "无法连接至伺服器。请重试。";
+"AlertUnknownErrorMessage" = "遇到未知错误。请重试。";
+"OKButton" = "明白";
+
+// signUp page
+"CreateAccountText" = "注册帐户";
+"UsernamePlaceholder" = "帐户名称*";
+"PasswordPlaceholder" = "密码*";
+"ConfirmPlaceholder" = "确认密码*";
+"SignupButtonText" = "注册";
+"CancelButtonText" = "取消";
+"AlertSignupFailTitle" = "注册失败";
+"AlertSignupSuccessTitle" = "注册成功";
+"AlertSignupPasswordRequiredMessage" = "请输入帐户和密码。";
+"AlertSignupPasswordDoNotMatchMessage" = "密码和确认密码不相符。";
+"AlertSignupSuccessMessage" = "您的帐户已成功注册。您现在可以登入并开始进行测试。";
+"AlertSignupUsernameIsUsedMessage" = "似乎这个帐户已被使用。";
+
+// setting page
+"LanguageText" = "语言";
+"LocalisationText" = "本地化";
+"HapticFeedbackText" = "震动";
+"SoundEffectText" = "音效";
+"FeedbackText" = "回馈";
+"VoiceInstructionText" = "语音指示";
+"SpeedText" = "语速";
+"PitchText" = "音调";
+"EditSettingsText" = "更改设定";
+"SettingsFooter" = "您可以在设定中打开语音指示并以无接触的方式完成测试。";
+"SettingsTitleText" = "设定";
+"DoneText" = "完成";
+"ConfirmText" = "完成";
+
+// menu Page
+"LogoutButtonText" = "登出";
+"StartButtonText" = "开始测试";
+"ViewResultButtonText" = "查看结果";
+"AlertAreYouSureTitle" = "您确定吗？";
+"AlertViewResultsFailedTitle" = "查看结果失败";
+"AlertFetchResultsErrorMessage" = "无法查看结果。请重试。";
+
+// view result
+"ViewResultTitle" = "历史结果";
+"NoResultToViewText" = "无结果可显示。";
+"YouCompleted1EyeTestText" = "您完成了 1 组测试。";
+"YouCompletedXEyeTestText %d" = "您完成了 %d 组测试。拖动线图以检示详情。";
+
+// eyetest 1
+"WhatNumberDoYouSeeText" = "您看到什么数字？";
+"InvalidInputText" = "无效输入";
+"PleaseEnterAPositiveNumberText" = "请输入一个正数。";
+"EnterANumberHereText" = "在这里输入数字";
+"EyeHintUseText" = "仅用";
+"EyeHintLeftText" = "左眼";
+"EyeHintRightText" = "右眼";
+"EyeHintOnlyText" = " ";
+"VI_Confirm" = "完成";
+"VI_Left_WhatNumberDoYouSeeText" = "仅用左眼。您看到什么数字？";
+"VI_Right_WhatNumberDoYouSeeText" = "仅用右眼。您看到什么数字？";
+"VIKeywordHint_Test1" = "说出这些指令来更改或提交输入：「取消」「删除」「完成」。";
+
+// eyetest 2
+"LookAtBlackDotFor5SecondsText" = "看着黑点5秒。";
+"VI_Left_LookAtBlackDotFor5SecondsText" = "仅用左眼。看着黑点5秒。准备好时，请说开始。";
+"IsTheImageDimmerText" = "现在用右眼。图片是否变暗？";
+"StartButtonText" = "开始";
+"YesText" = "是";
+"NoText" = "否";
+
+// eyetest 3
+"Which4LettersDoYouSeeText" = "图中的4个英文字母是？";
+"PleaseEnter4LettersText" = "请输入4个英文字母。";
+"Enter4LettersHereText" = "在这里输入4个英文字母";
+"VI_Delete" = "刪除";
+"VIInputHint_Test3" = "说出 'Apple' 来输入 'A', 以此类推。";
+"VIKeywordHint_Test3" = "说出这些指令来更改或提交输入：「Cancel」「Delete」「Confirm」。";
+"VI_Left_Which4LettersDoYouSeeText" = "仅用左眼。图中的4个英文字母是？";
+"VI_Right_Which4LettersDoYouSeeText" = "仅用右眼。圖中的4個英文字母是？";
+
+// eyetest 4
+"DoAllStripesHaveTheSameShadeOfBlackText" = "所有线条是否有相同深度的黑色？";
+"VI_Left_DoAllStripesHaveTheSameShadeOfBlackText" = "仅用左眼。所有线条是否有相同深度的黑色？";
+"VI_Right_DoAllStripesHaveTheSameShadeOfBlackText" = "仅用右眼。所有线条是否有相同深度的黑色？";
+
+// eyetest 5
+"AreAllTheSquaresEquallySpaced" = "正方形的大小是否一致？";
+"VI_Left_AreAllTheSquaresEquallySpaced" = "仅用左眼。正方形的大小是否一致？";
+"VI_Right_AreAllTheSquaresEquallySpaced" = "仅用右眼。正方形的大小是否一致？";
+
+// result list
+"NoResultText" = "没有结果";
+"ResultOverviewText" = "结果总览";
+"AlertUploadFailedTitle" = "上传失败";
+"AlertUploadFailedUnknownErrorMessage" = "遇到未知错误。如果您现在离开，将失去这次测试的结果。";
+"AlertUploadFailedNetworkErrorMessage" = "无法连线到伺服器。如果您现在离开，将失去这次测试的结果。";
+"LeaveText" = "离开";
+
+"VI_Yes" = "是";
+"VI_No" = "否";
+
